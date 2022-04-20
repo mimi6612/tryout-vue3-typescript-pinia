@@ -109,7 +109,7 @@ export default defineComponent({
     const increment = counterStore.increment
     const decrement = counterStore.decrement
 
-    const { count, doubleCount, increment, decrement } = storeToRefs(store)
+    const { count, doubleCount, increment, decrement } = storeToRefs(counterStore)
 
     return {
       count,
