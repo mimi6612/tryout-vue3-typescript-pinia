@@ -1,0 +1,1 @@
+piniaのstore用のフォルダ
