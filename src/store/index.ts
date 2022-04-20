@@ -14,7 +14,7 @@ export const store = createStore<State>({
     count: 0,
   },
   getters: {
-    doubled(state) {
+    doubleCount(state) {
       return state.count * 2;
     },
   },
